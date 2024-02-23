@@ -1,0 +1,14 @@
+{
+    "nickname": "Spooky Kipper",
+    "icon_link": "https://spooky.hk/images/favicon.png",
+    "user_icon_link1": "https://www.reshot.com/preview-assets/icons/VJLTH8G45A/person-VJLTH8G45A.svg",
+    "user_icon_link": "https://contact.spooky.hk/person.svg",
+
+    
+    "db_name": "spookyki_contactform",
+    "db_user": "spookyki_contactform",
+    "db_pass": "hP29oL&OYr_jtl2dqo",
+    "db_host": "localhost",
+    
+    "admin_cookie": "fNQrKZHZy4PYcyeTuckgJNgm6FnUcDdb8l4es02RNdvUJGYNxOu8oofGUxo0MdndHA0MY1rLUyw4ZKF8pMVQLGT4D0Q2kBZAWZZ2cJGxywRMEFXp0WUFLWnRRUCTUVZLUCvfVMIuT36mSqAutgVmKB"
+}

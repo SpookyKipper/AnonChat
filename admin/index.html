@@ -1,0 +1,31 @@
+<html>
+<head>
+<script>
+// A function to set a cookie with a name, value and expiry date
+function setCookie(name, value, days) {
+  let date = new Date();
+  date.setTime(date.getTime() + (days*24*60*60*1000));
+  let expires = "expires=" + date.toUTCString();
+  document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
+
+
+
+// A function to prompt the user for the admin cookie value and set it
+function setAdminCookie() {
+  let adminValue = prompt("Please enter the admin cookie value:", "");
+  if (adminValue != null && adminValue != "") {
+    setCookie("admin", adminValue, 1); // Set the cookie for 1 day
+    alert("Success");
+  }
+}
+
+
+</script>
+</head>
+<body>
+
+    <button onclick="setAdminCookie()">Set Admin Cookie</button>
+    <button onclick="window.location.href='/admin/chats'">See all conversations</button>
+</body>
+</html>
